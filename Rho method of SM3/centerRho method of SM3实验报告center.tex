@@ -1,0 +1,106 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\usepackage[normalem]{ulem}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{centerrho-method-of-sm3ux5b9eux9a8cux62a5ux544acenter}{%
+\section{Rho method of
+SM3实验报告}\label{centerrho-method-of-sm3ux5b9eux9a8cux62a5ux544acenter}}
+
+\begin{quote}
+\textbf{课程名称 \uline{创新创业实践课程} }
+
+\textbf{学生姓名 \uline{李路岩} 学号 \uline{202022180198}}
+
+\textbf{学院 \uline{网络空间安全}学院 专业 \uline{信息安全}}
+\end{quote}
+
+\tableofcontents
+
+\hypertarget{centerux5b9eux9a8cux601dux8defcenter}{%
+\subsection{实验思路}\label{centerux5b9eux9a8cux601dux8defcenter}}
+
+\begin{quote}
+利用生成函数，生成不同数据，进行前64bit碰撞检测
+\end{quote}
+
+\hypertarget{centerux5173ux952eux4ee3ux7801center}{%
+\subsection{关键代码}\label{centerux5173ux952eux4ee3ux7801center}}
+
+\begin{figure}
+\centering
+\includegraphics{https://img.gejiba.com/images/f9138867c053040c62423baa03299699.jpg}
+\caption{Rho method of SM3}
+\end{figure}
+
+\hypertarget{centerux5b9eux9a8cux7ed3ux679ccenter}{%
+\subsection{实验结果}\label{centerux5b9eux9a8cux7ed3ux679ccenter}}
+
+\begin{quote}
+64bit数据碰撞未能运行完毕
+\end{quote}
+
+\end{document}
