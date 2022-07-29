@@ -1,9 +1,0 @@
-长度扩展攻击
-思路：
-1.随机生成一条消息note，然后计算这条消息的hash，记为hash1
-
-2.将hash1作为iv加密你想要添加的消息append_message，并计算hash，记为hash2
-
-3.构造一条消息“note+padding+append_message”记为hash3
-
-4.验证hash2与hash3是否相等
