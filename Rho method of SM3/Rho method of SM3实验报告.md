@@ -19,3 +19,8 @@
 ## <center>实验结果</center>
 
 >64bit数据碰撞未能运行完毕
+>
+>
+>32bit数据碰撞成功：
+>
+><a href="https://img.gejiba.com/image/EyHYjD"><img src="https://img.gejiba.com/images/2bb767d43315e713a4ef8b2d76a4d8c6.png" alt="2bb767d43315e713a4ef8b2d76a4d8c6.png" border="0"></a>
