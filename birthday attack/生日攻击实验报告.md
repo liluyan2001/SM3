@@ -19,3 +19,8 @@
 ## <center>实验结果</center>
 
 >32bit数据碰撞未能运行完毕
+>
+>
+>16bit数据碰撞运行完毕:
+>
+><a href="https://img.gejiba.com/image/EyHv3O"><img src="https://img.gejiba.com/images/a18ff74260814539100547a4a8429d0d.png" alt="a18ff74260814539100547a4a8429d0d.png" border="0"></a>
